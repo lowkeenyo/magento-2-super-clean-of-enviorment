@@ -26,8 +26,8 @@ rm -rf var/page_cache/* var/cache/* var/composer_home/* generated/code/* generat
 
 ## extra 
 
-Tool name	Brief description	What it clears
-magento setup:upgrade	Update Magento database schema and data	generated/metadata and generated/code
-magento setup:di:compile	Generates code	generated/code prior to compiling
-magento deploy:mode:set {mode}	Switch between developer and production mode	generated/metadata, generated/code, var/view_preprocessed
-magento cache:clean {type}	Clears the cache	var/cache and var/page_cache
+Tool name /	Brief description /	What it clears
+magento setup:upgrade /	Update Magento database schema and data /	generated/metadata and generated/code
+magento setup:di:compile /	Generates code /	generated/code prior to compiling
+magento deploy:mode:set {mode} /	Switch between developer and production mode /	generated/metadata, generated/code, var/view_preprocessed
+magento cache:clean {type} /	Clears the cache /	var/cache and var/page_cache
