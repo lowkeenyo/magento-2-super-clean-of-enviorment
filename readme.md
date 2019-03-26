@@ -21,7 +21,7 @@
 * bin/magento cache:clean
 
 ## Deletering of directories with temporary or generated files
-rm -rf var/page_cache/* var/cache/* var/composer_home/* generated/code/* generated/metadata/* var/view_preprocessed/*
+rm -rf var/page_cache/* var/cache/* var/composer_home/* generated/code/* generated/metadata/* var/view_preprocessed/* var/report/* pub/static/frontend/*
 
 
 ## extra 
