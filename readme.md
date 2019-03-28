@@ -31,6 +31,3 @@ rm -rf var/page_cache/* var/cache/* var/composer_home/* generated/code/* generat
 * magento setup:di:compile /	Generates code /	generated/code prior to compiling
 * magento deploy:mode:set {mode} /	Switch between developer and production mode /	generated/metadata, generated/code, var/view_preprocessed
 * magento cache:clean {type} /	Clears the cache /	var/cache and var/page_cache
-
-
-test edit
